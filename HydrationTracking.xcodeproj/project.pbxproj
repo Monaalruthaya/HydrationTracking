@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F48AC9B92DEB6C9F00B43E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48AC9A02DEB6C9D00B43E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48AC9A72DEB6C9D00B43E7A;
+			remoteInfo = HydrationTracking;
+		};
+		F48AC9C32DEB6C9F00B43E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48AC9A02DEB6C9D00B43E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48AC9A72DEB6C9D00B43E7A;
+			remoteInfo = HydrationTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48AC9A82DEB6C9D00B43E7A /* HydrationTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydrationTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48AC9B82DEB6C9F00B43E7A /* HydrationTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48AC9C22DEB6C9F00B43E7A /* HydrationTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F48AC9AA2DEB6C9D00B43E7A /* HydrationTracking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HydrationTracking;
+			sourceTree = "<group>";
+		};
+		F48AC9BB2DEB6C9F00B43E7A /* HydrationTrackingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HydrationTrackingTests;
+			sourceTree = "<group>";
+		};
+		F48AC9C52DEB6C9F00B43E7A /* HydrationTrackingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HydrationTrackingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48AC9A52DEB6C9D00B43E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AC9B52DEB6C9F00B43E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AC9BF2DEB6C9F00B43E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48AC99F2DEB6C9D00B43E7A = {
+			isa = PBXGroup;
+			children = (
+				F48AC9AA2DEB6C9D00B43E7A /* HydrationTracking */,
+				F48AC9BB2DEB6C9F00B43E7A /* HydrationTrackingTests */,
+				F48AC9C52DEB6C9F00B43E7A /* HydrationTrackingUITests */,
+				F48AC9A92DEB6C9D00B43E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48AC9A92DEB6C9D00B43E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48AC9A82DEB6C9D00B43E7A /* HydrationTracking.app */,
+				F48AC9B82DEB6C9F00B43E7A /* HydrationTrackingTests.xctest */,
+				F48AC9C22DEB6C9F00B43E7A /* HydrationTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48AC9A72DEB6C9D00B43E7A /* HydrationTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48AC9CC2DEB6C9F00B43E7A /* Build configuration list for PBXNativeTarget "HydrationTracking" */;
+			buildPhases = (
+				F48AC9A42DEB6C9D00B43E7A /* Sources */,
+				F48AC9A52DEB6C9D00B43E7A /* Frameworks */,
+				F48AC9A62DEB6C9D00B43E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F48AC9AA2DEB6C9D00B43E7A /* HydrationTracking */,
+			);
+			name = HydrationTracking;
+			packageProductDependencies = (
+			);
+			productName = HydrationTracking;
+			productReference = F48AC9A82DEB6C9D00B43E7A /* HydrationTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48AC9B72DEB6C9F00B43E7A /* HydrationTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48AC9CF2DEB6C9F00B43E7A /* Build configuration list for PBXNativeTarget "HydrationTrackingTests" */;
+			buildPhases = (
+				F48AC9B42DEB6C9F00B43E7A /* Sources */,
+				F48AC9B52DEB6C9F00B43E7A /* Frameworks */,
+				F48AC9B62DEB6C9F00B43E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48AC9BA2DEB6C9F00B43E7A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F48AC9BB2DEB6C9F00B43E7A /* HydrationTrackingTests */,
+			);
+			name = HydrationTrackingTests;
+			packageProductDependencies = (
+			);
+			productName = HydrationTrackingTests;
+			productReference = F48AC9B82DEB6C9F00B43E7A /* HydrationTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F48AC9C12DEB6C9F00B43E7A /* HydrationTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48AC9D22DEB6C9F00B43E7A /* Build configuration list for PBXNativeTarget "HydrationTrackingUITests" */;
+			buildPhases = (
+				F48AC9BE2DEB6C9F00B43E7A /* Sources */,
+				F48AC9BF2DEB6C9F00B43E7A /* Frameworks */,
+				F48AC9C02DEB6C9F00B43E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48AC9C42DEB6C9F00B43E7A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F48AC9C52DEB6C9F00B43E7A /* HydrationTrackingUITests */,
+			);
+			name = HydrationTrackingUITests;
+			packageProductDependencies = (
+			);
+			productName = HydrationTrackingUITests;
+			productReference = F48AC9C22DEB6C9F00B43E7A /* HydrationTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48AC9A02DEB6C9D00B43E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F48AC9A72DEB6C9D00B43E7A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F48AC9B72DEB6C9F00B43E7A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F48AC9A72DEB6C9D00B43E7A;
+					};
+					F48AC9C12DEB6C9F00B43E7A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F48AC9A72DEB6C9D00B43E7A;
+					};
+				};
+			};
+			buildConfigurationList = F48AC9A32DEB6C9D00B43E7A /* Build configuration list for PBXProject "HydrationTracking" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48AC99F2DEB6C9D00B43E7A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F48AC9A92DEB6C9D00B43E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48AC9A72DEB6C9D00B43E7A /* HydrationTracking */,
+				F48AC9B72DEB6C9F00B43E7A /* HydrationTrackingTests */,
+				F48AC9C12DEB6C9F00B43E7A /* HydrationTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48AC9A62DEB6C9D00B43E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AC9B62DEB6C9F00B43E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AC9C02DEB6C9F00B43E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48AC9A42DEB6C9D00B43E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AC9B42DEB6C9F00B43E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AC9BE2DEB6C9F00B43E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48AC9BA2DEB6C9F00B43E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48AC9A72DEB6C9D00B43E7A /* HydrationTracking */;
+			targetProxy = F48AC9B92DEB6C9F00B43E7A /* PBXContainerItemProxy */;
+		};
+		F48AC9C42DEB6C9F00B43E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48AC9A72DEB6C9D00B43E7A /* HydrationTracking */;
+			targetProxy = F48AC9C32DEB6C9F00B43E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F48AC9CA2DEB6C9F00B43E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F48AC9CB2DEB6C9F00B43E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48AC9CD2DEB6C9F00B43E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydrationTracking/Preview Content\"";
+				DEVELOPMENT_TEAM = NDV484LK4Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = M.HydrationTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F48AC9CE2DEB6C9F00B43E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydrationTracking/Preview Content\"";
+				DEVELOPMENT_TEAM = NDV484LK4Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = M.HydrationTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F48AC9D02DEB6C9F00B43E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NDV484LK4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = M.HydrationTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrationTracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydrationTracking";
+			};
+			name = Debug;
+		};
+		F48AC9D12DEB6C9F00B43E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NDV484LK4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = M.HydrationTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrationTracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydrationTracking";
+			};
+			name = Release;
+		};
+		F48AC9D32DEB6C9F00B43E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NDV484LK4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = M.HydrationTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydrationTracking;
+			};
+			name = Debug;
+		};
+		F48AC9D42DEB6C9F00B43E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NDV484LK4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = M.HydrationTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydrationTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48AC9A32DEB6C9D00B43E7A /* Build configuration list for PBXProject "HydrationTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AC9CA2DEB6C9F00B43E7A /* Debug */,
+				F48AC9CB2DEB6C9F00B43E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48AC9CC2DEB6C9F00B43E7A /* Build configuration list for PBXNativeTarget "HydrationTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AC9CD2DEB6C9F00B43E7A /* Debug */,
+				F48AC9CE2DEB6C9F00B43E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48AC9CF2DEB6C9F00B43E7A /* Build configuration list for PBXNativeTarget "HydrationTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AC9D02DEB6C9F00B43E7A /* Debug */,
+				F48AC9D12DEB6C9F00B43E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48AC9D22DEB6C9F00B43E7A /* Build configuration list for PBXNativeTarget "HydrationTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AC9D32DEB6C9F00B43E7A /* Debug */,
+				F48AC9D42DEB6C9F00B43E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48AC9A02DEB6C9D00B43E7A /* Project object */;
+}
