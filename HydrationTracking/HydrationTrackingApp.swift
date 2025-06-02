@@ -4,14 +4,18 @@
 //
 //  Created by mona alruthaya on 04/12/1446 AH.
 //
-
 import SwiftUI
 
 @main
 struct HydrationTrackingApp: App {
+    @StateObject var settings = UserSettings()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                WeightInputView()
+            }
+            .environmentObject(settings)
         }
     }
 }
